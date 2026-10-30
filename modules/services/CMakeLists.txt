@@ -1,5 +1,6 @@
 add_library(services STATIC
-    src/placeholder.cpp
+    src/playbackservice.cpp
+    include/services/playbackservice.h
 )
 
 target_include_directories(services PUBLIC include)

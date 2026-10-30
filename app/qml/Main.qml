@@ -7,19 +7,7 @@ ApplicationWindow {
     visible: true
     title: appInfo.appTitle
 
-    Column {
-        anchors.centerIn: parent
-        spacing: 12
-
-        Label {
-            text: "Hello " + appInfo.appTitle
-            font.pixelSize: 32
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
-
-        Label {
-            text: "Media mau: " + appInfo.sampleMedia
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
+    PlayerPage {
+        anchors.fill: parent
     }
 }

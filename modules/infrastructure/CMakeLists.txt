@@ -1,5 +1,6 @@
 add_library(infrastructure STATIC
-    src/placeholder.cpp
+    playback/qtplaybackengine.cpp
+    include/infrastructure/qtplaybackengine.h
 )
 
 target_include_directories(infrastructure PUBLIC include)
